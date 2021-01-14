@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dl3.smartisan.com/ota/rls.darwin-mol-8.0.0-20201127-SEKSA.darwin-user/202012090354/8.1.1-202012082239-user-drw-d1f6e8e1d7.zip
+  ROM_URL: https://sysupwsdl.vivo.com.cn/upgrade/upload/UpdateFiles/202101082227296387e27cf5bf46236b5fe7b22506c932.zip
   ROM_NAME: Generic
   TZ: Asia/Shanghai
 
@@ -51,7 +51,7 @@ jobs:
               sudo bash setup.sh
        
        - name: Download Stock Rom & Generate GSI
-         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME -a
+         run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME -b
        
        - name: Zip GSI  
          run: |
