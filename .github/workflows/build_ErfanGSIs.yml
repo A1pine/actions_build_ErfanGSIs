@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://sysupwsdl.vivo.com.cn/upgrade/upload/UpdateFiles/202101082227296387e27cf5bf46236b5fe7b22506c932.zip
-  ROM_NAME: Generic
+  ROM_URL: https://bigota.d.miui.com/V12.0.6.0.QFACNXM/miui_CEPHEUS_V12.0.6.0.QFACNXM_f092b99a2e_10.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
